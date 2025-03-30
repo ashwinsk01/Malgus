@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B529AC7B2D993884000AB2A6 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B529AC7A2D993884000AB2A6 /* AppKit.framework */; };
+		B529AC7D2D99388D000AB2A6 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B529AC7C2D99388D000AB2A6 /* ScriptingBridge.framework */; };
+		B529AC7F2D993894000AB2A6 /* Vision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B529AC7E2D993894000AB2A6 /* Vision.framework */; };
+		B529AC812D99389C000AB2A6 /* NaturalLanguage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B529AC802D99389C000AB2A6 /* NaturalLanguage.framework */; };
+		B529AC832D9938A4000AB2A6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B529AC822D9938A3000AB2A6 /* Security.framework */; };
+		B529AC852D9938D7000AB2A6 /* CryptoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B529AC842D9938D7000AB2A6 /* CryptoKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B529AC062D993190000AB2A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B529ABEA2D99318D000AB2A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B529ABF12D99318D000AB2A6;
+			remoteInfo = Malgus;
+		};
+		B529AC102D993190000AB2A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B529ABEA2D99318D000AB2A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B529ABF12D99318D000AB2A6;
+			remoteInfo = Malgus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B529ABF22D99318D000AB2A6 /* Malgus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Malgus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B529AC052D993190000AB2A6 /* MalgusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MalgusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B529AC0F2D993190000AB2A6 /* MalgusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MalgusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B529AC7A2D993884000AB2A6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B529AC7C2D99388D000AB2A6 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
+		B529AC7E2D993894000AB2A6 /* Vision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vision.framework; path = System/Library/Frameworks/Vision.framework; sourceTree = SDKROOT; };
+		B529AC802D99389C000AB2A6 /* NaturalLanguage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NaturalLanguage.framework; path = System/Library/Frameworks/NaturalLanguage.framework; sourceTree = SDKROOT; };
+		B529AC822D9938A3000AB2A6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B529AC842D9938D7000AB2A6 /* CryptoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoKit.framework; path = System/Library/Frameworks/CryptoKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B529ABF42D99318D000AB2A6 /* Malgus */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Malgus;
+			sourceTree = "<group>";
+		};
+		B529AC082D993190000AB2A6 /* MalgusTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MalgusTests;
+			sourceTree = "<group>";
+		};
+		B529AC122D993190000AB2A6 /* MalgusUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MalgusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B529ABEF2D99318D000AB2A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B529AC812D99389C000AB2A6 /* NaturalLanguage.framework in Frameworks */,
+				B529AC832D9938A4000AB2A6 /* Security.framework in Frameworks */,
+				B529AC852D9938D7000AB2A6 /* CryptoKit.framework in Frameworks */,
+				B529AC7B2D993884000AB2A6 /* AppKit.framework in Frameworks */,
+				B529AC7F2D993894000AB2A6 /* Vision.framework in Frameworks */,
+				B529AC7D2D99388D000AB2A6 /* ScriptingBridge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B529AC022D993190000AB2A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B529AC0C2D993190000AB2A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B529ABE92D99318D000AB2A6 = {
+			isa = PBXGroup;
+			children = (
+				B529ABF42D99318D000AB2A6 /* Malgus */,
+				B529AC082D993190000AB2A6 /* MalgusTests */,
+				B529AC122D993190000AB2A6 /* MalgusUITests */,
+				B529AC792D993884000AB2A6 /* Frameworks */,
+				B529ABF32D99318D000AB2A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B529ABF32D99318D000AB2A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B529ABF22D99318D000AB2A6 /* Malgus.app */,
+				B529AC052D993190000AB2A6 /* MalgusTests.xctest */,
+				B529AC0F2D993190000AB2A6 /* MalgusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B529AC792D993884000AB2A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B529AC842D9938D7000AB2A6 /* CryptoKit.framework */,
+				B529AC822D9938A3000AB2A6 /* Security.framework */,
+				B529AC802D99389C000AB2A6 /* NaturalLanguage.framework */,
+				B529AC7E2D993894000AB2A6 /* Vision.framework */,
+				B529AC7C2D99388D000AB2A6 /* ScriptingBridge.framework */,
+				B529AC7A2D993884000AB2A6 /* AppKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B529ABF12D99318D000AB2A6 /* Malgus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B529AC192D993190000AB2A6 /* Build configuration list for PBXNativeTarget "Malgus" */;
+			buildPhases = (
+				B529ABEE2D99318D000AB2A6 /* Sources */,
+				B529ABEF2D99318D000AB2A6 /* Frameworks */,
+				B529ABF02D99318D000AB2A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B529ABF42D99318D000AB2A6 /* Malgus */,
+			);
+			name = Malgus;
+			packageProductDependencies = (
+			);
+			productName = Malgus;
+			productReference = B529ABF22D99318D000AB2A6 /* Malgus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B529AC042D993190000AB2A6 /* MalgusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B529AC1C2D993190000AB2A6 /* Build configuration list for PBXNativeTarget "MalgusTests" */;
+			buildPhases = (
+				B529AC012D993190000AB2A6 /* Sources */,
+				B529AC022D993190000AB2A6 /* Frameworks */,
+				B529AC032D993190000AB2A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B529AC072D993190000AB2A6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B529AC082D993190000AB2A6 /* MalgusTests */,
+			);
+			name = MalgusTests;
+			packageProductDependencies = (
+			);
+			productName = MalgusTests;
+			productReference = B529AC052D993190000AB2A6 /* MalgusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B529AC0E2D993190000AB2A6 /* MalgusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B529AC1F2D993190000AB2A6 /* Build configuration list for PBXNativeTarget "MalgusUITests" */;
+			buildPhases = (
+				B529AC0B2D993190000AB2A6 /* Sources */,
+				B529AC0C2D993190000AB2A6 /* Frameworks */,
+				B529AC0D2D993190000AB2A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B529AC112D993190000AB2A6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B529AC122D993190000AB2A6 /* MalgusUITests */,
+			);
+			name = MalgusUITests;
+			packageProductDependencies = (
+			);
+			productName = MalgusUITests;
+			productReference = B529AC0F2D993190000AB2A6 /* MalgusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B529ABEA2D99318D000AB2A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					B529ABF12D99318D000AB2A6 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					B529AC042D993190000AB2A6 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = B529ABF12D99318D000AB2A6;
+					};
+					B529AC0E2D993190000AB2A6 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = B529ABF12D99318D000AB2A6;
+					};
+				};
+			};
+			buildConfigurationList = B529ABED2D99318D000AB2A6 /* Build configuration list for PBXProject "Malgus" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B529ABE92D99318D000AB2A6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B529ABF32D99318D000AB2A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B529ABF12D99318D000AB2A6 /* Malgus */,
+				B529AC042D993190000AB2A6 /* MalgusTests */,
+				B529AC0E2D993190000AB2A6 /* MalgusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B529ABF02D99318D000AB2A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B529AC032D993190000AB2A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B529AC0D2D993190000AB2A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B529ABEE2D99318D000AB2A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B529AC012D993190000AB2A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B529AC0B2D993190000AB2A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B529AC072D993190000AB2A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B529ABF12D99318D000AB2A6 /* Malgus */;
+			targetProxy = B529AC062D993190000AB2A6 /* PBXContainerItemProxy */;
+		};
+		B529AC112D993190000AB2A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B529ABF12D99318D000AB2A6 /* Malgus */;
+			targetProxy = B529AC102D993190000AB2A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B529AC172D993190000AB2A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B529AC182D993190000AB2A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B529AC1A2D993190000AB2A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Malgus/Resources/Malgus.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Malgus/Preview Content\"";
+				DEVELOPMENT_TEAM = 5KB37B83FD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kalaxian-corp.Malgus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B529AC1B2D993190000AB2A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Malgus/Resources/Malgus.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Malgus/Preview Content\"";
+				DEVELOPMENT_TEAM = 5KB37B83FD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kalaxian-corp.Malgus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B529AC1D2D993190000AB2A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5KB37B83FD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kalaxian-corp.MalgusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Malgus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Malgus";
+			};
+			name = Debug;
+		};
+		B529AC1E2D993190000AB2A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5KB37B83FD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kalaxian-corp.MalgusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Malgus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Malgus";
+			};
+			name = Release;
+		};
+		B529AC202D993190000AB2A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5KB37B83FD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kalaxian-corp.MalgusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Malgus;
+			};
+			name = Debug;
+		};
+		B529AC212D993190000AB2A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5KB37B83FD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kalaxian-corp.MalgusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Malgus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B529ABED2D99318D000AB2A6 /* Build configuration list for PBXProject "Malgus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B529AC172D993190000AB2A6 /* Debug */,
+				B529AC182D993190000AB2A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B529AC192D993190000AB2A6 /* Build configuration list for PBXNativeTarget "Malgus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B529AC1A2D993190000AB2A6 /* Debug */,
+				B529AC1B2D993190000AB2A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B529AC1C2D993190000AB2A6 /* Build configuration list for PBXNativeTarget "MalgusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B529AC1D2D993190000AB2A6 /* Debug */,
+				B529AC1E2D993190000AB2A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B529AC1F2D993190000AB2A6 /* Build configuration list for PBXNativeTarget "MalgusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B529AC202D993190000AB2A6 /* Debug */,
+				B529AC212D993190000AB2A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B529ABEA2D99318D000AB2A6 /* Project object */;
+}

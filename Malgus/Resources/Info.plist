@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Basic app information -->
+    <key>CFBundleDevelopmentRegion</key>
+    <string>$(DEVELOPMENT_LANGUAGE)</string>
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>$(PRODUCT_NAME)</string>
+    <key>CFBundlePackageType</key>
+    <string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    
+    <!-- Required permission usage descriptions -->
+    <key>NSAppleEventsUsageDescription</key>
+    <string>Malgus needs to monitor active applications to provide context-aware recommendations.</string>
+    
+    <key>NSAccessibilityUsageDescription</key>
+    <string>Malgus needs accessibility access to monitor your activities and provide context-aware recommendations.</string>
+    
+    <key>NSScreenCaptureUsageDescription</key>
+    <string>Malgus needs to capture screen content to understand your context and provide better recommendations.</string>
+    
+    <key>NSInputMonitoringUsageDescription</key>
+    <string>Malgus needs to monitor your keyboard input to understand your context and provide better recommendations.</string>
+    
+    <key>NSDesktopFolderUsageDescription</key>
+    <string>Malgus needs access to save and retrieve context information.</string>
+    
+    <key>NSDocumentsFolderUsageDescription</key>
+    <string>Malgus needs access to save and retrieve context information.</string>
+    
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Malgus can use your microphone for voice commands (optional feature).</string>
+    
+    <key>NSCalendarsUsageDescription</key>
+    <string>Malgus can integrate with your calendar to provide context-aware recommendations.</string>
+    
+    <!-- File type associations (if needed in the future) -->
+    <key>CFBundleDocumentTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+                <string>context</string>
+            </array>
+            <key>CFBundleTypeName</key>
+            <string>Malgus Context</string>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>LSHandlerRank</key>
+            <string>Owner</string>
+            <key>LSItemContentTypes</key>
+            <array>
+                <string>com.malgus.context</string>
+            </array>
+        </dict>
+    </array>
+    
+    <!-- App Transport Security settings for API communication -->
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <false/>
+    </dict>
+    
+    <!-- App is UI-based (not a background agent) -->
+    <key>LSUIElement</key>
+    <false/>
+    
+    <!-- App can manage other applications -->
+    <key>NSSupportsAutomaticTermination</key>
+    <false/>
+    
+    <!-- App category -->
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.productivity</string>
+    
+    <!-- Enable hardened runtime -->
+    <key>com.apple.security.get-task-allow</key>
+    <false/>
+    
+    <!-- Main storyboard or main interface -->
+    <key>NSMainStoryboardFile</key>
+    <string>Main</string>
+    
+    <!-- Support for dark mode -->
+    <key>NSRequiresAquaSystemAppearance</key>
+    <false/>
+</dict>
+</plist>
